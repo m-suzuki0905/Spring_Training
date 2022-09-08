@@ -2,10 +2,8 @@ package mrs.app.room;
 
 import java.time.LocalDate;
 import java.util.List;
-
 import mrs.domain.model.ReservableRoom;
 import mrs.domain.service.room.RoomService;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
