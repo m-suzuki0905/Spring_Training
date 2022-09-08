@@ -7,7 +7,7 @@
 * STS 3.7.3
  
 # Note
- 著者自身がM1 Macを使用しているため、該当されない方はInstallationは飛ばしてください。
+ 自身がM1 Macを使用しているため、該当されない方はInstallationは飛ばしてください。
  <br>下記が著者開発スペックになります
 * MacBook Pro M1, 2020
 * macOS Monterey 12.5.1
