@@ -3,8 +3,6 @@ package mrs.domain.repository.room;
 import java.time.LocalDate;
 import java.util.List;
 
-import javax.persistence.LockModeType;
-
 import mrs.domain.model.ReservableRoom;
 import mrs.domain.model.ReservableRoomId;
 
