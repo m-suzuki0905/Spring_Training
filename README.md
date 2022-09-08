@@ -23,20 +23,37 @@ uname -m
 
 ```zsh
 java -version
+javac -version
 ```
 3. [Spring Tool Suite をインストール](https://spring.io/tools)
    - [【推奨】日本語化プラグインをダウンロード](https://mergedoc.osdn.jp/)
     zipファイル解答後、「setup.app」を起動して画面に従い、「Spring Tool Suite」を選択する
  
+4. Homebrew経由でPostgreSQLをインストール
+
+```zsh
+brew search postgresql
+brew install postgresql <選びたいバージョンがあれば指定> 
+brew services start postgresql
+```
+
+5. バージョン確認(返ってこなければPATHを確認)
+```zsh
+psql --version
+postgres --version
+```
+
 
 # Usage
- 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
- 
-```zsh
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
+
+実行にschema.splでなくHibernateによって実行されるスキーマ作成を採用したため本書のapplication.propertyとズレあり。
+
+[公式サイト参考](https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto.data-initialization:~:text=single%20DataSource.-,9.%20Database%20Initialization,-An%20SQL%20database)
+> application.property
+```
+spring.jpa.hibernate.ddl-auto=create
+spring.sql.init.mode=always
+spring.jpa.defer-datasource-initialization=true
 ```
 
  
