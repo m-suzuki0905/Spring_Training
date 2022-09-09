@@ -4,7 +4,7 @@
 # Requirement
  
 * JDK8
-* STS 3.7.3
+* Spring Tool Suite 3.7.3
  
 # Note
  自身がM1 Macを使用しているため、該当されない方はInstallationは飛ばしてください。
