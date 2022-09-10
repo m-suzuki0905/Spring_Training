@@ -4,13 +4,17 @@
 # Requirement
  
 * JDK8
-* Spring Tool Suite 3.7.3
+* Spring boot 1.3.5
+* postgreSQL 9.4.4
+* thymeleaf-extras-java8time 2.1.0
  
 # Note
  自身がM1 Macを使用しているため、該当されない方はInstallationは飛ばしてください。
- <br>下記が著者開発スペックになります
+ <br>下記が私の開発スペックになります
 * MacBook Pro M1, 2020
 * macOS Monterey 12.5.1
+* openJDK 18.0.2
+* spring boot 2.7.3
 
 
 # Installation
