@@ -15,6 +15,7 @@
 * macOS Monterey 12.5.1
 * openJDK 18.0.2
 * spring boot 2.7.3
+* postgreSQL 14.5
 
 
 # Installation
