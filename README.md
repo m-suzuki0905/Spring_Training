@@ -46,17 +46,18 @@ postgres --version
 
 # Usage
 
-実行にschema.splでなくHibernateによって実行されるスキーマ作成を採用したため本書のapplication.propertyとズレあり。
+実行にschema.spqlでなくHibernateによって実行されるスキーマ作成を採用したため本書のapplication.propertiesとズレあり。
 
 [公式サイト参考](https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto.data-initialization:~:text=single%20DataSource.-,9.%20Database%20Initialization,-An%20SQL%20database)
-> application.property
+> application.properties
 ```
 spring.jpa.hibernate.ddl-auto=create
 spring.sql.init.mode=always
 spring.jpa.defer-datasource-initialization=true
 ```
+# Table
+ <img width="983" alt="image" src="https://user-images.githubusercontent.com/113026626/189475280-5f9fcc87-c31c-4a17-ad43-9225e5f3cb6e.png">
 
- 
 # Author
 * 鈴木 将斗
 * 株式会社VRST 所属
